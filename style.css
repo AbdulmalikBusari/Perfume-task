@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+.main {
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 30px;
+    display: flex;
+    background-color: (0, 0%, 100%);
+    padding: none;
+}
+
+.Perfume {
+    height: 100%;
+    width: 100%;
+    padding: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: none;
+}
+
+.perf {
+    height: auto;
+    width: 100%;
+    padding: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: none;
+    background-color: hsl(0, 0%, 100%);
+}
+.text {
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+h1 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+h6 {
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.p {
+    color: hsl(158, 36%, 37%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.price {
+    display: flex;
+}
+
+.change {
+    padding-top: 27px;
+    padding-left: 20px;
+    font-size: 10px;
+}
+
+.buy {
+    display: flex;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.cart {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+
+}
+
+.add {
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 425px) {
+    .main {
+        width: 90%;
+        margin: 10px auto;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        height: auto;
+        width: 100%;
+        border-radius: 30px;
+    
+    }
+
+    .perf {
+        height: auto;
+        width: 100%;
+        padding: none;
+        border-radius: 30px;
+        margin: none;
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .Perfume {
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+    }   
+}
